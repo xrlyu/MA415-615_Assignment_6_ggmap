@@ -1,0 +1,133 @@
+---
+title: "Bude Tourist Map"
+author: "Xiru Lyu"
+date: "3/17/2018"
+output: pdf_document
+fontsize: 11pt
+---
+```{r message = FALSE, echo=FALSE, warning= FALSE}
+source("Bude Maps.R")
+
+library(gridExtra)
+library(knitr)
+```
+
+```{r echo = FALSE, fig.height = 4, fig.cap = "Bude Roadmap"}
+# reder the roadmap
+road
+```
+
+```{r echo=FALSE, fig.height  = 4, fig.cap="Bude Watercolor Map"}
+# render the watercolor map
+water
+```
+
+Two maps (Figure 1 and Figure 2) are the roadmap and the watercolor map for Bude, UK. Bude is famous for its surfing beaches and cricket grounds and some recommended visitig sites are marked out in these two maps. Blue dots represent two surfing beaches: **Summerleaze Beach** and **Crooklets Beach**. The green dot indicates the location of the famous **Bude North Cornwall Cricket Club**. Besides, we want to find a pub near the cricket ground, and **Bar 35** is marked by the red dot on both maps. The yellow path shown in both road map and watercolor map is the route from Bude North Cornwall Cricket Club to Bar 35.
+
+# Surfing Beaches
+
+## Summerleaze Beach
+
+Summerleaze Beach is Bude’s central hub of sand, surf and sun, and it’s the first port of call for many visitors.
+
+Clean, safe and easy on the eye, Summerleaze Beach is a big hit with surfers, beach bums and families. However, it is the sheer variety of activities that mark Summerleaze as arguably the best beach in Cornwall for outdoor pursuits and water sports.
+
+There are superb local surf schools, for example, but you could also try kayaking, sea fishing or sample the thrills of climbing or coasteering with friendly professionals.
+
+Summerleaze Beach also has features that show why Bude is popular for family friendly and disability friendly holidays.  Summerleaze offers level access and a flat viewing area, for example, while a cute, sheltered sea pool is ideal for young ones to have a salt water dip. For a serious spot of loafing, there are also cute beach huts to hire.
+
+**Ideal for:** Relaxing, family fun, beach huts, water sports, surfing.
+
+**Accessibility:** Level access and flat viewing area. Large car park.
+
+**Facilities:**  Outdoor swimming pool, harbout, beach café/bistro, beach office and shop, toilets, RNLI base, beach huts to hire, surf hire.
+
+**Car Parking:**  Large pay and display parking.
+
+**Lifeguarded:** Yes.
+
+**Best time to surf:**  All tides.
+
+**Dog Friendly?**  Yes, but dogs must be on a lead during life guarded hours.
+
+**Awards:**  Seaside Award.
+
+**Location:** EX23 8HN.
+
+![Summerleaze Beach]("./Image/Summerleaze"){width=70%}
+
+----------
+*Information:*  [VisitBude](https://www.visitbude.info/for-beach-lovers/beaches/summerleaze-beach/)
+*Image:* [Cornwall-beaches](https://www.cornwall-beaches.co.uk/public/photos/Summerleaze-Beach-Bude.jpg)
+--------
+
+## Crooklets Beach
+
+Although a little pebbly at the top, Crooklets offers a huge expanse of golden sand and rock pools to explore once the tide is out. It is popular with surfers, but also families who would prefer a beach without dogs.
+
+There are lots of beach huts available to hire.
+
+**Ideal for:** Surfing and beach games.
+
+**Accessibility:** A decent sized car park, from which there is level access.
+
+**Facilities:** Sea front café, public toilets, outdoor shower, beach huts for hire
+
+**Lifeguard Cover:** 6th May to 27th September (daily)
+
+**Best time to surf:** All tides
+
+**Dog Friendly?** Dogs banned Easter to 1st Oct.
+
+**Location:** EX23 8NF – 0.8 miles north of Bude Town centre
+
+![Crooklets Beach]("./Image/Crooklets"){width=80%}
+
+--------
+*Information:*  [VisitBude](https://www.visitbude.info/for-beach-lovers/beaches/crooklets-beach/)
+*Image:* [Visitcornwall](https://www.visitcornwall.com/sites/default/files/styles/product_image_breakpoints_theme_visitcornwall2_tablet_1_5x/public/product_image/Crooklets%20Beach%2C%20Bude%20Credit%20Matt%20Jessop%20and%20Visit%20Cornwall%208.jpg?itok=iXVi6eMa&timestamp=1499770434)
+-----------
+
+# Bude North Cornwall Cricket Club
+
+Bude North Cornwall Cricket Club is situated on the clifftops overlooking the Atlantic Ocean, and is quite simply one of the most stunning locations you could ever wish to visit, let alone play cricket at! 
+
+Bude North Cornwall Cricket Club was founded in 1870. Over the years it has played host to Hockey matches, Tennis, Cricket and even used for Mortar practice in WW2!
+
+Bude played only friendly matches until the late 1970's, entertaining local and touring sides throughout the summer months. Since joining the Cornwall Cricket League the club has held various league honours and still continues to host touring teams from around the world. 
+
+Currently the club has three senior sides. The 1st XI play in Cornwall Division 3 and the 2nd XI in Division 5. In addition we have a Sunday league side in the North Devon League Division 2. Bude North Cornwall Cricket Club also has a thriving junior section. 
+
+In 2013 our ageing pavilion (around 100 years old) was demolished and replaced with a fantastic new clubhouse, the ground is now a stunning place to watch cricket as well as play it! 
+
+*Location:*
+
+Bude Cricket Club, 2c St Olafs Road, Stratton, Bude, EX23 9AF
+
+![Bude North Cornwall Cricket Club]("./Image/cricket"){width=70%}
+
+----------
+*Information:* [getactivecornwall](http://www.getactivecornwall.co.uk/activities/clubs/q/club-u=bude-cc-1/)
+*Image:* [xdownloads](https://xdownloads.co.uk/BudeCricketClub/Bude_Play_Cricket/images/11168080_1587475814842244_8677295715579706228_n.jpg)
+---------
+
+# Bar 35
+
+Bar 35 specialises in live music events, supporting local and national bands across multiple genres including: indie, rock, soul, blues, acoustic and many more. Our live music events run all year, every Saturday as standard, and Fridays joining the set list during the summer months. 
+
+At Bar 35 we pride ourselves on providing a relaxed atmosphere throughout the daytimes, in keeping with our beautiful location. We offer chilled vibes to suit all, from our snug lounge with sofas, a TV, and boutique decor, to the main bar hosting Sky Sports HD, a pool table, darts board, and plenty of seating. As a bonus, our beer garden is the secret sun trap of Bude with a smoker’s shack, and outside seating for chilled coffee dates or a sunshine cider. The choice is yours!
+
+Come night time, the bar knocks it up a gear with live music every weekend, a full dance floor, and party-goers keen to enjoy their nights out.
+
+Our fun-loving, upbeat team, are forever smiling and more than happy to help. We’re proud to say they’re an invaluable addition to our venue.
+
+Our well stocked bar (the best in the town), is right in the centre of Bude, North Cornwall, offering local beers, ales and ciders, as well as an extensive wine list, a variety of cocktails, and a wide range of sprits. Multiple whiskeys, rums, gins (49 and counting) & vodkas are yours for the taking. We also offer Carraro coffee, Birchall herbal teas, milkshakes and smoothies.
+
+Well behaved dogs and children welcome everyday, and before 10pm in the evenings – we even serve doggy dinners to keep hound hunger at bay!
+
+![Bar 35]("./Image/pub"){width=70%}
+
+-----------
+*Information:* [barthirtyfive](http://www.barthirtyfive.co.uk)
+*Image:* [listofpubs](http://listofpubs.co.uk/uploads/320627/x0.jpg.pagespeed.ic.LUXgWieszn.jpg)
+------------

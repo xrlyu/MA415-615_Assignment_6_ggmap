@@ -22,7 +22,7 @@ road <- ggmap(roadmap) +
     data = route, color = "yellow", size = 1.5
   ) +
   geom_text(data = beach, aes(label = label.beach), hjust = 1.1) +
-  geom_text(data = gc.cricket, aes(label = label.cricket), hjust = 0.7, vjust = 1.5) +
+  geom_text(data = gc.cricket, aes(label = label.cricket), hjust = 0.7, vjust = 2) +
   geom_text(data = gc.bar, aes(label = label.bar), hjust = 1.3) # add labels to geom points
 
 
@@ -45,5 +45,5 @@ water <- ggmap(watercolor) +
     data = route, color = "yellow", size = 1.5
   ) +
   geom_text(data = beach, aes(label = label.beach), hjust = 1.1) +
-  geom_text(data = gc.cricket, aes(label = label.cricket), hjust = 0.7, vjust = 1.5) +
+  geom_text(data = gc.cricket, aes(label = label.cricket), hjust = 0.7, vjust = 2) +
   geom_text(data = gc.bar, aes(label = label.bar), hjust = 1.3) # add labels to geom points

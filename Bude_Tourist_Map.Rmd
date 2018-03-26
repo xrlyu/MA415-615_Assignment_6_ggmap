@@ -148,3 +148,31 @@ Well behaved dogs and children welcome everyday, and before 10pm in the evenings
 *Information:* [barthirtyfive](http://www.barthirtyfive.co.uk)
 *Image:* [listofpubs](http://listofpubs.co.uk/uploads/320627/x0.jpg.pagespeed.ic.LUXgWieszn.jpg)
 ------------
+
+\newpage
+
+# Tommy Jacks Beach Hotel
+
+Down by the dunes in Bude, you’ll discover one of Cornwall’s newest hotels – Tommy Jacks. A throwback to when surfers were kings and skaters ruled the world, Tommy Jacks is quite possibly, the grooviest urban beach hotel, bar and restaurant on the Cornish coast.
+
+Our 20 cheery, pocket-friendly bedrooms are neat and nautical and you can earn your seaside stripes in the family-friendly Sea Jacks Restaurant and cosy brewpub. Just a stone's throw from Bude-iful Crooklets Beach, they're the ultimate surfside HQ.
+
+![Tommy Jacks Beach Hotel]("./Image/hotel1"){width=70%}
+
+-----------
+*Information:* [Beach Hotel Tommy Jacks](http://www.tommyjacks.co.uk/)
+*Image:* [Beach Hotel Tommy Jacks](http://www.tommyjacks.co.uk/hotel-in-bude/gallery)
+------------
+
+\newpage
+
+# Edgcumbe Hotel
+
+Much more than just a place to stay. A beach style B&B, with the look and feel of a small hotel with the heart and soul of a family run business. Dont just stay....Belong.
+
+![Edgcumbe Hotel]("./Image/hotel2"){width=70%}
+
+-----------
+*Information:* [Edgcumbe Hotel](http://www.edgcumbe-hotel.co.uk/)
+*Image:* [Beach Hotel Tommy Jacks](http://www.tommyjacks.co.uk/hotel-in-bude/gallery)
+------------

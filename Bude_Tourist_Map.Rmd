@@ -7,10 +7,23 @@ fontsize: 11pt
 ---
 ```{r message = FALSE, echo=FALSE, warning= FALSE}
 source("Bude Maps.R")
-
 library(gridExtra)
-library(knitr)
 ```
+
+```{r echo=FALSE, fig.cap="Bude Maps"}
+grid.arrange(bude.roadmap, bude.watercolormap, nrow = 1, ncol = 2, newpage = FALSE)
+```
+
+Figure 1 shows the roadmap and watercolor map of Bude, UK. 
+
+**Bude** is a small seaside resort town in north Cornwall, England, UK, in the civil parish of Bude-Stratton and at the mouth of the River Neet (also known locally as the River Strat). It is sometimes formerly known as Bude Haven. Its earlier importance was as a harbour, and then a source of sea sand useful for improving the moorland soil. The Victorians favoured it as a watering place, and it was a popular seaside destination in the 20th century.
+
+![Bude]("./Image/Bude"){width=80%}
+
+------
+*Information:* [Wikipedia](https://en.wikipedia.org/wiki/Bude)
+*Image:* [Wikipedia](https://commons.wikimedia.org/wiki/File%3ABude_01_River_Neet.jpg)
+------
 
 ```{r echo = FALSE, fig.height = 4, fig.cap = "Bude Roadmap"}
 # reder the roadmap
@@ -22,11 +35,9 @@ road
 water
 ```
 
-Two maps (Figure 1 and Figure 2) are the roadmap and the watercolor map for Bude, UK. Bude is famous for its surfing beaches and cricket grounds and some recommended visitig sites are marked out in these two maps. Blue dots represent two surfing beaches: **Summerleaze Beach** and **Crooklets Beach**. The green dot indicates the location of the famous **Bude North Cornwall Cricket Club**. Besides, we want to find a pub near the cricket ground, and **Bar 35** is marked by the red dot on both maps. The yellow path shown in both road map and watercolor map is the route from Bude North Cornwall Cricket Club to Bar 35.
+For the convinence of plotting tourist sites, a separate set of roadmap and watercolor map of Bude is reproduced in Figure 3 and Figure 4. The town is famous for its surfing beaches and cricket grounds and some recommended tourist attractions are marked out in these two maps. Blue dots represent two surfing beaches: **Summerleaze Beach** and **Crooklets Beach**. The green dot indicates the location of the famous **Bude North Cornwall Cricket Club**. Besides, we want to find a pub near the cricket ground, and **Bar 35** is marked by the red dot on both maps. The yellow path shown in both road map and watercolor map is the route from Bude North Cornwall Cricket Club to Bar 35.
 
-# Surfing Beaches
-
-## Summerleaze Beach
+# Summerleaze Beach
 
 Summerleaze Beach is Bude’s central hub of sand, surf and sun, and it’s the first port of call for many visitors.
 
@@ -61,7 +72,9 @@ Summerleaze Beach also has features that show why Bude is popular for family fri
 *Image:* [Cornwall-beaches](https://www.cornwall-beaches.co.uk/public/photos/Summerleaze-Beach-Bude.jpg)
 --------
 
-## Crooklets Beach
+\newpage
+
+# Crooklets Beach
 
 Although a little pebbly at the top, Crooklets offers a huge expanse of golden sand and rock pools to explore once the tide is out. It is popular with surfers, but also families who would prefer a beach without dogs.
 
@@ -88,6 +101,8 @@ There are lots of beach huts available to hire.
 *Image:* [Visitcornwall](https://www.visitcornwall.com/sites/default/files/styles/product_image_breakpoints_theme_visitcornwall2_tablet_1_5x/public/product_image/Crooklets%20Beach%2C%20Bude%20Credit%20Matt%20Jessop%20and%20Visit%20Cornwall%208.jpg?itok=iXVi6eMa&timestamp=1499770434)
 -----------
 
+\newpage
+
 # Bude North Cornwall Cricket Club
 
 Bude North Cornwall Cricket Club is situated on the clifftops overlooking the Atlantic Ocean, and is quite simply one of the most stunning locations you could ever wish to visit, let alone play cricket at! 
@@ -110,6 +125,8 @@ Bude Cricket Club, 2c St Olafs Road, Stratton, Bude, EX23 9AF
 *Information:* [getactivecornwall](http://www.getactivecornwall.co.uk/activities/clubs/q/club-u=bude-cc-1/)
 *Image:* [xdownloads](https://xdownloads.co.uk/BudeCricketClub/Bude_Play_Cricket/images/11168080_1587475814842244_8677295715579706228_n.jpg)
 ---------
+
+\newpage
 
 # Bar 35
 

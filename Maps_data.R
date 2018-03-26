@@ -3,6 +3,8 @@ library(tidyverse)
 
 # Bude road map
 gc.bude <- geocode("Bude, UK") # geocode for Bude, UK
+bude.road <- get_map(gc.bude, maptype = "roadmap") # roadmap for Bude
+bude.watercolor <- get_map(gc.bude, maptype = "watercolor") # watercolor map for Bude
 
 gc.beach1 <- geocode("Summerleaze Beach, UK") # geocode for Summerleaze Beach
 gc.beach2 <- geocode("Crooklets Beach, UK") # geocode for Crooklets Beach
@@ -21,10 +23,10 @@ from <- "Bude North Cornwall Cricket Club, UK"
 to <- "Belle Vue Ln, Bude EX23 8BR, UK"
 route <- route(from, to, structure = "route") # define start and end of the route (from the cricket ground to Bar 35)
 
-roadmap <- get_map(gc.cricket, maptype = "roadmap", zoom = 15) # get the roadmap
+roadmap <- get_map(gc.cricket, maptype = "roadmap", zoom = 15) # get the roadmap, centered at cricket ground
 
 # Bude watercolor map
-watercolor <- get_map(gc.cricket, maptype = "watercolor", zoom = 15) # get the watercolor map
+watercolor <- get_map(gc.cricket, maptype = "watercolor", zoom = 15) # get the watercolor map, centered at cricket ground
 
 # save the workspace
 save.image(file = "Bude_map.RData")

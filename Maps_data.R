@@ -28,5 +28,11 @@ roadmap <- get_map(gc.cricket, maptype = "roadmap", zoom = 15) # get the roadmap
 # Bude watercolor map
 watercolor <- get_map(gc.cricket, maptype = "watercolor", zoom = 15) # get the watercolor map, centered at cricket ground
 
+# find two nearby hotels
+hotel1 <- geocode("tommy jacks beach hotel")
+hotel2 <- geocode("edgcumbe hotel")
+label.hotel1 <- c("Tommy Jacks Beach Hotel")
+label.hotel2 <- c("Edgcumbe Hotel")
+
 # save the workspace
 save.image(file = "Bude_map.RData")

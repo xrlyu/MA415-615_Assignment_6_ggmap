@@ -39,7 +39,12 @@ road <- ggmap(roadmap) +
   ) +
   geom_text(data = beach, aes(label = label.beach), hjust = 1.1) +
   geom_text(data = gc.cricket, aes(label = label.cricket), hjust = 0.7, vjust = 2) +
-  geom_text(data = gc.bar, aes(label = label.bar), hjust = 1.3) # add labels to geom points
+  geom_text(data = gc.bar, aes(label = label.bar), hjust = 1.3) + # add labels to geom points
+  # add points for the two hotels and label them
+  geom_point(aes(x = lon, y = lat), data = hotel1, color = "orange", size = 3) +
+  geom_point(aes(x = lon, y = lat), data = hotel2, color = "orange", size = 3) +
+  geom_text(data = hotel1, aes(label = label.hotel1), hjust = 0.7, vjust = -1) +
+  geom_text(data = hotel2, aes(label = label.hotel2), hjust = 1.1)
 
 
 # plot the watercolor map with points marking beaches, the cricket ground and Bar 35
@@ -62,5 +67,10 @@ water <- ggmap(watercolor) +
   ) +
   geom_text(data = beach, aes(label = label.beach), hjust = 1.1) +
   geom_text(data = gc.cricket, aes(label = label.cricket), hjust = 0.7, vjust = 2) +
-  geom_text(data = gc.bar, aes(label = label.bar), hjust = 1.3) # add labels to geom points
+  geom_text(data = gc.bar, aes(label = label.bar), hjust = 1.3) + # add labels to geom points
+  # add points for the two hotels and label them
+  geom_point(aes(x = lon, y = lat), data = hotel1, color = "orange", size = 3) +
+  geom_point(aes(x = lon, y = lat), data = hotel2, color = "orange", size = 3) +
+  geom_text(data = hotel1, aes(label = label.hotel1), hjust = 0.7, vjust = -1) +
+  geom_text(data = hotel2, aes(label = label.hotel2), hjust = 1.1)
 
